@@ -1,0 +1,80 @@
+:root {
+  background-color: #fbeaeb;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ec8b5e;
+}
+/* UTILITIES */
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container > * {
+  width: 100%;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+/* BUTTONS */
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #de8388;
+  background-color: white;
+  border-radius: 25px;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.2rem 1.4rem 0 rgb(250, 173, 137, 0.3);
+  transition: all 900ms ease-in-out;
+  background-color: #2f3c7e;
+  color: #f7ccce;
+}
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.heading {
+  font-size: 5rem;
+  letter-spacing: -0.5rem;
+  color: #de8388;
+  margin-bottom: 3rem;
+}
+.ten {
+  color: #2f3c7e;
+  letter-spacing: -6px;
+}

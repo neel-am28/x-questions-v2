@@ -21,3 +21,7 @@ exports.getQuizData = (req, res) => {
             console.log(err);
         })
 }
+
+exports.endGame = (req, res) => {
+    res.render('end');
+}

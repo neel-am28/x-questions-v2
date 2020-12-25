@@ -12,4 +12,6 @@ router.get('/getQuizData', gameController.getQuizData)
 
 router.get('/highscores', gameController.highscores)
 
+router.get('/end', gameController.endGame)
+
 module.exports = router

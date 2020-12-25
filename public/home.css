@@ -71,6 +71,9 @@
   color: #de8388;
   background-color: white;
   border-radius: 25px;
+  outline: none;
+  border: 0;
+  box-shadow: 0 0.2rem 1.4rem 0 rgb(250, 173, 137, 0.3);
 }
 .btn:hover {
   cursor: pointer;
@@ -96,4 +99,34 @@
 .ten {
   color: #2f3c7e;
   letter-spacing: -6px;
+}
+
+/* FORM STYLES */
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn.btnAnchor {
+  margin-bottom: 1rem;
+  display: inline-block;
+  font-weight: 500;
+}
+#username {
+  width: 20rem;
+  border-radius: 25px;
+  border: 1px solid #df8388;
+  outline: 0;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: 555252;
+}
+#username::placeholder {
+  color: #555252;
+}
+#finalScore {
+  margin-bottom: 2rem;
+  font-size: 6rem;
 }

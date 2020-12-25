@@ -121,7 +121,7 @@ form {
   padding: 1.2rem;
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  color: 555252;
+  color: #555252;
 }
 #username::placeholder {
   color: #555252;
@@ -129,4 +129,10 @@ form {
 #finalScore {
   margin-bottom: 2rem;
   font-size: 6rem;
+  color: #2f3c7e;
+}
+.userScore {
+  font-size: 3rem;
+  text-align: center;
+  color: #2f3c7e;
 }

@@ -4,10 +4,6 @@ exports.game = (req, res) => {
     res.render('game')
 }
 
-exports.highscores = (req, res) => {
-    res.send("highscore")
-}
-
 exports.home = (req, res) => {
     res.render('home');
 }

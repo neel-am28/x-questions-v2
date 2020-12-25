@@ -1,12 +1,7 @@
 <%- include('includes/header') %>
     <div class="container">
         <div id="end" class="flex-center flex-column">
-            <h1 id="finalScore"></h1>
-            <form>
-                <input autocomplete="off" type="text" name="username" id="username" placeholder="Username">
-                <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)"
-                    disabled>Save</button>
-            </form>
+            <h2 class="userScore">You scored <br><span id="finalScore"></span></h2>
             <a href="/game" class="btn btnAnchor">Play Again</a><br>
             <a href="/" class="btn btnAnchor">Go Home</a>
         </div>

@@ -14,8 +14,14 @@
 .container {
   width: 100vw;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   max-width: 70rem;
   margin: 0 auto;
@@ -26,14 +32,25 @@
   width: 100%;
 }
 .flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 .flex-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .justify-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .text-center {
@@ -58,6 +75,7 @@
 .btn:hover {
   cursor: pointer;
   box-shadow: 0 0.2rem 1.4rem 0 rgb(250, 173, 137, 0.3);
+  -webkit-transition: all 900ms ease-in-out;
   transition: all 900ms ease-in-out;
   background-color: #2f3c7e;
   color: #f7ccce;
@@ -65,6 +83,7 @@
 .btn[disabled]:hover {
   cursor: not-allowed;
   box-shadow: none;
+  -webkit-transform: none;
   transform: none;
 }
 

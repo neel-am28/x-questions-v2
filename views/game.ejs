@@ -4,6 +4,29 @@
     </head>
 
     <body>
+        <!-- header -->
+        <div class="header">
+            <div id="hood">
+                <div id="hood-item">
+                    <p class="hood-prefix">
+                        Question
+                    </p>
+                    <h1 class="hood-main-text" id="questionCounter">
+
+                    </h1>
+                </div>
+                <div class="logo"><span class="ten">10</span>Questions</div>
+                <div id="hood-item">
+                    <p class="hood-prefix">
+                        Score
+                    </p>
+                    <h1 class="hood-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <!-- main section -->
         <div class="container">
             <div id="game" class="justify-center flex-column">
                 <h2 id="question">What's the answer to this question?</h2>
@@ -25,9 +48,10 @@
                 </div>
             </div>
         </div>
-        <script>
 
-        </script>
+        <div class="progress-bar" id="progressBar">
+            <div class="progress-inner" id="progressBarFull"></div>
+        </div>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
         <script src="/game_script.js"></script>

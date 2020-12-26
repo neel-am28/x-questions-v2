@@ -1,6 +1,6 @@
 .effect {
-  box-shadow: 0 1.4rem 1.4rem 0 rgba(205, 137, 141, 0.3);
-  background: #f3eeee;
+  box-shadow: none;
+  background: #fff;
 }
 
 .choice-container {

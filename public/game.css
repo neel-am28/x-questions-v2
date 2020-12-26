@@ -7,18 +7,13 @@
   font-size: 1.8rem;
   background-color: white;
   border-radius: 6px;
-  -webkit-transition: none !important;
-  transition: none !important;
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
 }
 .choice-container:hover {
   cursor: pointer;
   -webkit-transition: all 500ms linear;
   transition: all 500ms linear;
-  -webkit-transform: translateX(0.8rem);
-  transform: translateX(0.8rem);
-  box-shadow: 0 0.4rem 1.4rem 0 rgb(250, 173, 137, 0.3);
+  box-shadow: 0 1.4rem 1.4rem 0 rgba(205, 137, 141, 0.3);
+  background: #f3eeee;
 }
 .choice-container:hover .choice-prefix {
   background-color: #141c42;
@@ -29,6 +24,8 @@
   color: white;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
+  -webkit-transition: all 500ms linear;
+  transition: all 500ms linear;
 }
 .choice-text {
   padding: 1.5rem;

@@ -8,21 +8,15 @@
   background-color: white;
   border-radius: 6px;
 }
-.choice-container:not(:focus):hover {
+.choice-container:hover {
   cursor: pointer;
   -webkit-transition: all 500ms linear;
   transition: all 500ms linear;
-  box-shadow: 0 1.4rem 1.4rem 0 rgba(205, 137, 141, 0.3);
-  background: #f3eeee;
+  box-shadow: 0 0.4rem 1.4rem 0 rgb(250, 173, 137, 0.3);
+  background: aliceblue;
 }
-.choice-container:not(:focus):hover .choice-prefix {
+.choice-container:hover .choice-prefix {
   background-color: #141c42;
-}
-.choice-container:focus {
-  box-shadow: none;
-}
-.choice-prefix:focus {
-  background: #2f3c7e;
 }
 .choice-prefix {
   padding: 1.5rem 2.5rem;
@@ -30,8 +24,6 @@
   color: white;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
-  -webkit-transition: all 500ms linear;
-  transition: all 500ms linear;
 }
 .choice-text {
   padding: 1.5rem;
@@ -39,10 +31,10 @@
   color: #141a46;
 }
 .correct {
-  background-color: #7be694;
+  background-color: #7be694 !important;
 }
 .incorrect {
-  background-color: #e96a77;
+  background-color: #e96a77 !important;
 }
 #question {
   width: 100%;
@@ -149,19 +141,12 @@
   .logo {
     font-size: 3rem;
   }
-  .choice-container:not(:focus):hover {
-    -webkit-transition: all 500ms linear;
-    transition: all 500ms linear;
+  .choice-container:hover {
+    cursor: pointer;
     box-shadow: none;
-    background: #fff;
+    background-color: #fff;
   }
-  .choice-container:not(:focus):hover .choice-prefix {
+  .choice-container:hover .choice-prefix {
     background-color: #2f3c7e;
-  }
-  .correct {
-    background-color: #7be694;
-  }
-  .incorrect {
-    background-color: #e96a77;
   }
 }

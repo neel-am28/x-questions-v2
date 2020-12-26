@@ -8,15 +8,21 @@
   background-color: white;
   border-radius: 6px;
 }
-.choice-container:hover {
+.choice-container:not(:focus):hover {
   cursor: pointer;
   -webkit-transition: all 500ms linear;
   transition: all 500ms linear;
   box-shadow: 0 1.4rem 1.4rem 0 rgba(205, 137, 141, 0.3);
   background: #f3eeee;
 }
-.choice-container:hover .choice-prefix {
+.choice-container:not(:focus):hover .choice-prefix {
   background-color: #141c42;
+}
+.choice-container:focus {
+  box-shadow: none;
+}
+.choice-prefix:focus {
+  background: #2f3c7e;
 }
 .choice-prefix {
   padding: 1.5rem 2.5rem;

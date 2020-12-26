@@ -158,4 +158,10 @@
   .choice-container:not(:focus):hover .choice-prefix {
     background-color: #2f3c7e;
   }
+  .correct {
+    background-color: #7be694;
+  }
+  .incorrect {
+    background-color: #e96a77;
+  }
 }

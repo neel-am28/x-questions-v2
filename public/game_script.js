@@ -53,7 +53,6 @@ getNewQuestion = () => {
     choices.forEach(choice => {
         const number = choice.dataset['number'];
         choice.innerText = currentQuestion['option' + number];
-        choice.style.transition = 'none !important';
     })
     availableQuestions.splice(questionIndex, 1);
     acceptingAnswers = true;
@@ -71,6 +70,7 @@ choices.forEach(choice => {
             incrementScore(CORRECT_BONUS)
         }
         selectedChoice.parentElement.classList.add(classToApply);
+        selectedChoice.parentElement.classList.add('effect');
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();

@@ -144,7 +144,10 @@
   .choice-container:hover {
     cursor: pointer;
     box-shadow: none;
+<<<<<<< HEAD
     background-color: #fff;
+=======
+>>>>>>> 897c4e33aa0a6c2d0e78d1beea13e7ef251c7ee8
   }
   .choice-container:hover .choice-prefix {
     background-color: #2f3c7e;

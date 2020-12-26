@@ -7,6 +7,10 @@
   font-size: 1.8rem;
   background-color: white;
   border-radius: 6px;
+  -webkit-transition: none !important;
+  transition: none !important;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
 }
 .choice-container:hover {
   cursor: pointer;

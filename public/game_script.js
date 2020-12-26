@@ -70,7 +70,6 @@ choices.forEach(choice => {
             incrementScore(CORRECT_BONUS)
         }
         selectedChoice.parentElement.classList.add(classToApply);
-        selectedChoice.parentElement.classList.add('effect');
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
